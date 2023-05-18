@@ -1,0 +1,53 @@
+@import url(./home/tecnologia.css);
+@import url(./home/header.css);
+@import url(./utilidades/componentes.css);
+@import url(./Introducao/introducao.css);
+@import url(./utilidades/tipografia.css);
+@import url(./utilidades/Cores.css);
+@import url(./Bicicletas/bicicletas-lista.css);
+@import url(./home/parceiros.css);
+@import url(./home/depoimento.css);
+@import url(./seguros/seguros.css);
+@import url(./home/footer.css);
+@import url(./termos/termos.css);
+@import url(./Bicicletas/Bicicletas.css);
+@import url(./seguros/vantagens.css);
+@import url(./seguros/perguntas.css);
+@import url(./bicicleta/bicicleta.css);
+@import url(./bicicleta/seguro.css);
+
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 2000px;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote,
+dd {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+img[src$=".jpg"] {
+  border-radius: 6px;
+}
