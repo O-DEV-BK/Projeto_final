@@ -77,6 +77,11 @@
 }
 
 @media(max-width:800px) {
+
+  .bicicletas h2::before {
+    display: none;
+  }
+
   .bicicletas {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -87,7 +92,7 @@
   .bicicletas-bg {
     background-image: var(--cor-11);
   }
-  
+
 }
 
 @media(max-width:600px) {
